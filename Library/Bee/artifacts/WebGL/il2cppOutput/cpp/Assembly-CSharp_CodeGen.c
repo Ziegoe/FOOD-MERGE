@@ -1,0 +1,107 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void fruits_tester_Start_m6877C23410624A503C3CF25F877AA91F95D8B7F0 (void);
+extern void fruits_tester_Update_m989175A9F881706E07B597360E09C42B74D8CEE8 (void);
+extern void fruits_tester__ctor_mE5B27BB7110B66AD68EB1B7EA4D373F001B3760C (void);
+extern void Cloud_Start_m71BBFF6B0F31E57326C26601D09A18DAE00DD2A6 (void);
+extern void Cloud_Update_m216253CC524BF2D0CF0EB0FACD65418AF30D64BB (void);
+extern void Cloud_spawnFruit_m3F73B4A7D5A354ABE628AC7BFF47264509341A05 (void);
+extern void Cloud_replaceFruit_m72DE529CAC61CEE33E462B08A657DC2B8E87B5B5 (void);
+extern void Cloud_spawnTimer_mC4FC644BC21A0FEF738568B3236BFB279EBE6F6E (void);
+extern void Cloud__ctor_mA3A30BBF5346063E974B0088012C482B7B5727C1 (void);
+extern void Cloud__cctor_m865621B0D1D9BCF9D614C87217636CDA14A737A8 (void);
+extern void U3CspawnTimerU3Ed__12__ctor_m8F81E885C92BC7BDB9A2F64111D7660FA508C103 (void);
+extern void U3CspawnTimerU3Ed__12_System_IDisposable_Dispose_mF4D11783CC61D9E0E7E1DA09B3030B93BE16D6F5 (void);
+extern void U3CspawnTimerU3Ed__12_MoveNext_m617FB81D8131C8B4B1D1AEA2B80185166AE347D5 (void);
+extern void U3CspawnTimerU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m883FBF8494E4A7B164C10D4463808CE64F7C8210 (void);
+extern void U3CspawnTimerU3Ed__12_System_Collections_IEnumerator_Reset_m5C4B1396A6E50A4A703667D0086B9F4C47E1834D (void);
+extern void U3CspawnTimerU3Ed__12_System_Collections_IEnumerator_get_Current_m0FBFD6FEF83791DF49F7B274A57201A6FB12A562 (void);
+extern void Fruit_Start_mF18B47D3803E1484D7417CE14E40006C2815F024 (void);
+extern void Fruit_Update_m6203C8EC6511E52DB146FD78D8F1276E6B734DC7 (void);
+extern void Fruit_OnCollisionEnter2D_mEF5304F2872F1BB69484144B05EF958B256273E1 (void);
+extern void Fruit__ctor_m20B058B355CBCA8A8BDFE8B587DB42DE8C7AE622 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[22] = 
+{
+	fruits_tester_Start_m6877C23410624A503C3CF25F877AA91F95D8B7F0,
+	fruits_tester_Update_m989175A9F881706E07B597360E09C42B74D8CEE8,
+	fruits_tester__ctor_mE5B27BB7110B66AD68EB1B7EA4D373F001B3760C,
+	Cloud_Start_m71BBFF6B0F31E57326C26601D09A18DAE00DD2A6,
+	Cloud_Update_m216253CC524BF2D0CF0EB0FACD65418AF30D64BB,
+	Cloud_spawnFruit_m3F73B4A7D5A354ABE628AC7BFF47264509341A05,
+	Cloud_replaceFruit_m72DE529CAC61CEE33E462B08A657DC2B8E87B5B5,
+	Cloud_spawnTimer_mC4FC644BC21A0FEF738568B3236BFB279EBE6F6E,
+	Cloud__ctor_mA3A30BBF5346063E974B0088012C482B7B5727C1,
+	Cloud__cctor_m865621B0D1D9BCF9D614C87217636CDA14A737A8,
+	U3CspawnTimerU3Ed__12__ctor_m8F81E885C92BC7BDB9A2F64111D7660FA508C103,
+	U3CspawnTimerU3Ed__12_System_IDisposable_Dispose_mF4D11783CC61D9E0E7E1DA09B3030B93BE16D6F5,
+	U3CspawnTimerU3Ed__12_MoveNext_m617FB81D8131C8B4B1D1AEA2B80185166AE347D5,
+	U3CspawnTimerU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m883FBF8494E4A7B164C10D4463808CE64F7C8210,
+	U3CspawnTimerU3Ed__12_System_Collections_IEnumerator_Reset_m5C4B1396A6E50A4A703667D0086B9F4C47E1834D,
+	U3CspawnTimerU3Ed__12_System_Collections_IEnumerator_get_Current_m0FBFD6FEF83791DF49F7B274A57201A6FB12A562,
+	Fruit_Start_mF18B47D3803E1484D7417CE14E40006C2815F024,
+	Fruit_Update_m6203C8EC6511E52DB146FD78D8F1276E6B734DC7,
+	Fruit_OnCollisionEnter2D_mEF5304F2872F1BB69484144B05EF958B256273E1,
+	Fruit__ctor_m20B058B355CBCA8A8BDFE8B587DB42DE8C7AE622,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[22] = 
+{
+	4744,
+	4744,
+	4744,
+	4744,
+	4744,
+	4744,
+	4744,
+	4641,
+	4744,
+	7027,
+	3760,
+	4744,
+	4565,
+	4641,
+	4744,
+	4641,
+	4744,
+	4744,
+	3785,
+	4744,
+	7031,
+	4744,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	22,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
